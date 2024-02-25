@@ -9,6 +9,10 @@ app.use(express.json());
 app.use("/api/v1", rootRouter);
 
 // DB Connection
+app.get('/',(req, res )=>{
+  res.send("i am backened");
+
+})
 
 connectToDB();
 
