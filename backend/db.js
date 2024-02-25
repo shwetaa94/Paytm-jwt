@@ -3,7 +3,7 @@ const { number } = require("zod");
 function connectToDB() {
   try {
     mongoose.connect(
-      "mongodb+srv://Shweta9416:Shwetaecommerce@cluster0.opu30dm.mongodb.net/"
+      "mongodb+srv://Shweta9416:Shwetaecommerce@cluster0.opu30dm.mongodb.net/paytm"
     );
     console.log("DB connected");
   } catch (err) {
